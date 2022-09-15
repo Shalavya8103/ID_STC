@@ -14,6 +14,7 @@ from PIL import Image
 import easyocr
 from flask import jsonify
 
+
 app = Flask(__name__)
 
 reader=easyocr.Reader(['en'])

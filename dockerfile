@@ -15,4 +15,4 @@ WORKDIR /app
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "./app2.py","--host","0.0.0.0","--port","5000" ]
+CMD [ "./app.py","--host","0.0.0.0","--port","5000" ]
